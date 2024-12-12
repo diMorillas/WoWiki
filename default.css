@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Friz Quadrata';
+    src: url('fonts/Friz Quadrata TT Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 html, body {
 	height: 100%;
 }
@@ -13,9 +20,9 @@ body {
 }
 
 h1, h2, h3 {
+	font-family: 'Friz Quadrata';
 	margin: 0;
 	padding: 0;
-	text-transform: uppercase;
 	font-weight: 300;
 	color: #2D2D2D;
 }
@@ -117,10 +124,9 @@ hr {
 	left: 220px;
 	bottom: 210px;
 	letter-spacing: -1px;
-	text-transform: lowercase;
 	font-size: 7.5em;
 	font-weight: 400;
-	color: #DF0101;
+	color: #2D2D2D;
 }
 
 #logo p {
