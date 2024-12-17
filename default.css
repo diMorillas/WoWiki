@@ -160,7 +160,6 @@ hr {
 /** MENU */
 #menu {
     overflow: hidden;
-    background-image: url(./img/button-without-text.png);
     background-repeat:repeat; 
     background-size: cover; 
     background-position: center; 
